@@ -8,7 +8,7 @@ if Result = "Cancel" {
 RunWait "cmd /c net user " . name . " /add"
 RunWait "cmd /c net user " . name . " Klik033442"
 RunWait "cmd /c net localgroup rendszergazdák /add " . name
-
+passsave()
 Msgbox("Kész, jelentkezz be az új fiókba: localhost\" . name . "`nJelszó: Klik033442")
 exit
 
